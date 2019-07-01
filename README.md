@@ -14,7 +14,7 @@ Step by step buid the application with react, typescript, nodeSJ, express, postg
 -   postgres()
 
 ##Initil Evironment
--   Step 1: nodeJS init\r\n
+-   Step 1: nodeJS init
     Run command `npm init`
     Automatically generate "package.json"               // Generate the configure file of the application
 -   Step 2: install express and initialize express

@@ -1,0 +1,19 @@
+{
+  "name": "react_ts_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamYao-GitHub/React_typeScript_node.git"
+  },
+  "author": "Adam Yao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamYao-GitHub/React_typeScript_node/issues"
+  },
+  "homepage": "https://github.com/AdamYao-GitHub/React_typeScript_node#readme"
+}

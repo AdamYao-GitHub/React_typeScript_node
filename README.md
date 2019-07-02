@@ -13,7 +13,7 @@ Step by step buid the application with react, typescript, nodeSJ, express, postg
 -   Express()
 -   postgres()
 
-##Initil Evironment
+##Initial Evironment
 -   Step 1: nodeJS init
     Run command `npm init`
     Automatically generate "package.json"               // Generate the configure file of the application
@@ -31,5 +31,7 @@ Step by step buid the application with react, typescript, nodeSJ, express, postg
     Run command `npm run nodemon`
 -   Step 4: install React
     Run command `npm i --save react react-dom`          //install react and react-dom
-
-
+-   Step 5: install webpack
+    Run command `npm i --save -D webpack webpack-dev-server`
+-   Step 6: install babel
+    Let JSX into ES6 javascript and then let ES6 into ES5

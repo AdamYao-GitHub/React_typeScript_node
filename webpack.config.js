@@ -1,4 +1,3 @@
-// import webpack from 'webpack'
 var path = require('path');
 var srcPath = path.resolve(__dirname, "dist");
 var distPath = path.resolve(__dirname, "public");
@@ -18,27 +17,27 @@ module.exports = {
     },
     module: {
         rules: [{
-                test: /\.js?$/,
-                exclude: /node_modules/,
-                include: /client/,
-                loader: "babel-loader",
-                query: {
-                    presets: ['es2015']
-                }
-            },
-            {
-                test: /\.jsx?$/,
-                exclude: /node_modules/,
-                include: /client/,
-                loader: "babel-loader",
-                query: {
-                    presets: ['es2015', 'stage-2', 'react']
-                }
-            }, {
-                test: /\.tsx?$/,
-                loader: "ts-loader",
-                exclude: /node_modules/
+            test: /\.js?$/,
+            exclude: /node_modules/,
+            include: /client/,
+            loader: "babel-loader",
+            query: {
+                presets: ['es2015']
             }
+        },
+        {
+            test: /\.jsx?$/,
+            exclude: /node_modules/,
+            include: /client/,
+            loader: "babel-loader",
+            query: {
+                presets: ['es2015', 'stage-2', 'react']
+            }
+        }, {
+            test: /\.tsx?$/,
+            loader: "ts-loader",
+            exclude: /node_modules/
+        }
         ]
     },
     devServer: {

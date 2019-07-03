@@ -1,29 +1,29 @@
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-      "allowJs": true,
-      "moduleResolution": "Node",
-      "esModuleInterop": true,
-      "jsx": "react",
-      "module": "commonjs",
-      "noImplicitAny": true,
-      "preserveConstEnums": true,
-      "removeComments": true,
-      "target": "ES6",
-      "outDir": "dist",
-      "allowSyntheticDefaultImports": true,
-      "sourceMap": true,
-      "rootDir": "./client/",
-      "alwaysStrict": true,
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true
-    },
-    "include": [
-      "./client/**/*"
-    ],
-    "exclude": [
-      "node_modules",
-      "typings/browser.d.ts",
-      "typings/browser"
-    ]
-  }
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "target": "ES6",
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "rootDir": "./client/",
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "./client/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings/browser.d.ts",
+    "typings/browser"
+  ]
+}

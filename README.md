@@ -32,6 +32,13 @@ Step by step buid the application with react, typescript, nodeSJ, express, postg
 -   Step 4: install React
     Run command `npm i --save react react-dom`          //install react and react-dom
 -   Step 5: install webpack
-    Run command `npm i --save -D webpack webpack-dev-server`
+    Run command `npm i --save -D webpack webpack-dev-server webpack-cli --verbose`
 -   Step 6: install babel
     Let JSX into ES6 javascript and then let ES6 into ES5
+    Run command `npm i --save -D --verbose babel-core babel-loader@7 babel-preset-es2015 babel-preset-react babel-preset-react-hmre babel-preset-stage-2`
+    watch consider the version support here will use v.7+ of babel-loader
+-   Step 7: Generate enterance file and main JS for application
+    Generate "index.html" and include the main JS and main DOM element;
+    Generate "./client/app.js" for main reat JS file
+    Generate "./component/main.jsx" for main content JSX file
+-   Step 8: 

@@ -1,7 +1,7 @@
 // import webpack from 'webpack'
-const path = require('path');
-const srcPath = path.resolve(__dirname, "client");
-const distPath = path.resolve(__dirname, "public");
+var path = require('path');
+var srcPath = path.resolve(__dirname, "dist");
+var distPath = path.resolve(__dirname, "public");
 
 module.exports = {
     devtool: 'source-map',
@@ -34,6 +34,10 @@ module.exports = {
                 query: {
                     presets: ['es2015', 'stage-2', 'react']
                 }
+            }, {
+                test: /\.tsx?$/,
+                loader: "ts-loader",
+                exclude: /node_modules/
             }
         ]
     },

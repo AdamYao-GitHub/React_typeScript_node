@@ -41,4 +41,13 @@ Step by step buid the application with react, typescript, nodeSJ, express, postg
     Generate "index.html" and include the main JS and main DOM element;
     Generate "./client/app.js" for main reat JS file
     Generate "./component/main.jsx" for main content JSX file
--   Step 8: 
+-   Step 8: install/config typescript
+    Run command `npm i typescript ts-loader --save -D --verbose`
+    Run command `npm i @types/react @types/react-dom --save --verbose`
+    Generate "./tsconfig.json" for the typescript config;
+    Tips: rootDir, let the final compliation files keep the origin directory structure under the compilation folder;
+-   Step 9: Add other auxiliary plug-in
+    Run command `npm i cpx --save -D --verbose`
+    Add CPX script for moving the sources files into the complie folder;
+    `"cpx \"./client/**/*.!(tsx|less)\" dist/"`
+

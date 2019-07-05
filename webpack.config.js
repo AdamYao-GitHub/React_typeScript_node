@@ -1,6 +1,6 @@
 var path = require('path');
 var srcPath = path.resolve(__dirname, "dist");
-var distPath = path.resolve(__dirname, "public");
+var distPath = path.resolve(__dirname, "output");
 
 module.exports = {
     devtool: 'source-map',
@@ -19,7 +19,7 @@ module.exports = {
         rules: [{
             test: /\.js?$/,
             exclude: /node_modules/,
-            include: /client/,
+            include: /dist/,
             loader: "babel-loader",
             query: {
                 presets: ['es2015']
@@ -28,7 +28,7 @@ module.exports = {
         {
             test: /\.jsx?$/,
             exclude: /node_modules/,
-            include: /client/,
+            include: /dist/,
             loader: "babel-loader",
             query: {
                 presets: ['es2015', 'stage-2', 'react']

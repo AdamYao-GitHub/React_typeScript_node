@@ -13,13 +13,14 @@
     "outDir": "dist",
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "rootDir": "./client/",
+    "rootDir": ".",
     "alwaysStrict": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
   "include": [
     "./client/**/*"
+    // "./server/**/*"
   ],
   "exclude": [
     "node_modules",

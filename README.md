@@ -18,7 +18,7 @@ Step by step buid the application with react, typescript, nodeSJ, express, postg
     Run command `npm init`
     Automatically generate "package.json"               // Generate the configure file of the application
 -   Step 2: install express and initialize express
-    Run command `npm i --save express`
+    Run command `npm i --save express @types/express`
     New JS file called "server.js" and put default server setting into the file.
     Port: `5000`
     Main Path: `\`

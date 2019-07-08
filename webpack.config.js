@@ -1,11 +1,13 @@
 var path = require('path');
-var srcPath = path.resolve(__dirname, "dist");
-var distPath = path.resolve(__dirname, "output");
+var srcPath = path.resolve(__dirname, "client");
+var distPath = path.resolve(__dirname, "dist");
 
 module.exports = {
     devtool: 'source-map',
+    mode: "production",
+    watch: true,
     entry: [
-        srcPath + "/app.js"
+        srcPath + "/app.tsx"
     ],
     output: {
         path: distPath,
@@ -13,7 +15,7 @@ module.exports = {
         filename: "main.js"
     },
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
     module: {
         rules: [{

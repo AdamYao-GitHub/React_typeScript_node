@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpackServerHot": "webpack-dev-server --hot",
+    "dev": "npm run build & npm run watch & npm run webpackServerHot",
     "webpackBuild": "webpack",
     "nodemon": "nodemon ./dist/index.js",
-    "dev": "npm run build & npm run watch",
-    "watch": "",
+    "watch": "tsc -w",
     "postbuild": "cpx \"./src/**/*.!(tsx|less)\" dist/",
     "build": "tsc"
   },

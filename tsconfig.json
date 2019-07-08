@@ -5,22 +5,21 @@
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "jsx": "react",
-    "module": "commonjs",
+    "module": "ES6",
     "noImplicitAny": true,
     "preserveConstEnums": true,
     "removeComments": true,
-    "target": "ES6",
-    "outDir": "dist",
+    "target": "ES5",
+    "outDir": "./dist/",
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
-    "rootDir": ".",
+    // "rootDir": "./client/",
     "alwaysStrict": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
   "include": [
     "./client/**/*"
-    // "./server/**/*"
   ],
   "exclude": [
     "node_modules",

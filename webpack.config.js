@@ -45,4 +45,4 @@ module.exports = {
         hot: true,
         port: 4500
     }
-}
+};

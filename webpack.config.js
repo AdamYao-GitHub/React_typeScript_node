@@ -5,7 +5,6 @@ var distPath = path.resolve(__dirname, "dist");
 module.exports = {
     devtool: 'source-map',
     mode: "production",
-    watch: true,
     entry: [
         srcPath + "/app.tsx"
     ],
